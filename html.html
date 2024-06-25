@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart and Wishlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="product">
+        <h2>Product tittle</h2>
+        <p>Description of the product goes here.</p>
+        <p>Price: $19.99</p>
+        <button onclick="addToCart()">Add to Cart</button>
+        <button onclick="addToWishlist()">Add to Wishlist</button>
+    </div>
+
+    <div class="cart-wishlist">
+        <h2>Shopping Cart</h2>
+        <ul id="cart"></ul>
+
+        <h2>Wishlist</h2>
+        <ul id="wishlist"></ul>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
